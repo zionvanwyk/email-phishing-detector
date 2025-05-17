@@ -22,4 +22,13 @@ A fine-tuned DistilBERT model for detecting phishing emails. This lightweight NL
 | Recall       | XX.X%  |
 | F1-Score     | XX.X%  |
 
+## Email Phishing Detector Interface
+
+An interactive [HuggingFace space](https://huggingface.co/spaces/zionia/phishing-email-detector-project) has been created in which a user can paste in the text of some email and, after real-time analysis using the model, will return a label (Phishing or Legitimate) and confidence score. Other explainability features like highlighted suspicious email text are also available on this space.
+
+## In This Repo:
+- [**Data Uploading Script**](https://github.com/zionvanwyk/email-phishing-detector/blob/main/PhishingEmailDataHFUpload.ipynb): Uploads required Kaggle dataset csv file from Google Drive to HuggingFace.
+- [**Model Fine-Tuning Script**](): Fine-tunes model on the uploaded dataset.
+- [**Model Evaluation Script**](): Evaluates the model on the following dataset: https://huggingface.co/datasets/zefang-liu/phishing-email-dataset.
+- [**Project Report**](): Documentation for this project. 
 
