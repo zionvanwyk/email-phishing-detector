@@ -11,16 +11,16 @@ A fine-tuned DistilBERT model for detecting phishing emails. This lightweight NL
 - **Architecture**: DistilBERT-base-uncased (Sequence Classification)
 - **Training Data**: [Phishing Email Dataset](https://huggingface.co/datasets/zionia/phishing-emails) 
 - **Input**: Raw email text (English)
-- **Output**: Binary classification (0 = Safe, 1 = Phishing)
+- **Output**: Binary classification (0 = Legitimate, 1 = Phishing)
 
 ## Performance
 
 | Metric       | Value  |
 |--------------|--------|
-| Accuracy     | XX.X%  |
-| Precision    | XX.X%  |
-| Recall       | XX.X%  |
-| F1-Score     | XX.X%  |
+| Accuracy     | 99.5%  |
+| Precision    | 99.5%  |
+| Recall       | 99.4%  |
+| F1-Score     | 99.5%  |
 
 ## Email Phishing Detector Interface
 
@@ -28,7 +28,6 @@ An interactive [HuggingFace space](https://huggingface.co/spaces/zionia/phishing
 
 ## In This Repo:
 - [**Data Uploading Script**](https://github.com/zionvanwyk/email-phishing-detector/blob/main/PhishingEmailDataHFUpload.ipynb): Uploads required Kaggle dataset csv file from Google Drive to HuggingFace.
-- [**Model Fine-Tuning Script**](): Fine-tunes model on the uploaded dataset.
-- [**Model Evaluation Script**](): Evaluates the model on the following dataset: https://huggingface.co/datasets/zefang-liu/phishing-email-dataset.
-- [**Project Report**](): Documentation for this project. 
+- [**Model Fine-Tuning Script**](https://github.com/zionvanwyk/email-phishing-detector/blob/main/Phishing_Email_Model_Training%20(1).ipynb): Fine-tunes model on the uploaded dataset.
+- [**Project Report**](https://github.com/zionvanwyk/email-phishing-detector/blob/main/COS_720_Project.pdf): Documentation for this project. 
 
